@@ -13,9 +13,32 @@ A simple react native starter template that bootstraps development of your mobil
 - React Navigation for simple switch navigation
 - Custom components(Buttons and loading overlay)
 
+
+## Folder structure
+This template follows a very simple project structure:
+- `src`: This folder is the main container of all the code inside your application.
+  - `assets`: Asset folder to store all images, vectors, etc.
+  - `components`: Folder to store any common component that you use through your app (such as a generic button)
+  - `constants`: Folder to store any kind of constant that you have.
+  - `translations`: Folder to store the languages files.
+  - `navigation`: Folder to store the navigators.
+  - `screens`: Folder that contains all your application screens/features.       
+  - `store`: Folder to put all redux middlewares and the store.
+		- `reducers`: This folder should have all your reducers, and expose the combined result.
+        - `selectors`: Folder to store your selectors for each reducer.
+  	- `selectors`: Folder to store your selectors for each reducer.
+  - `AppStyles.js`: Folder to store all the styling concerns related to the application theme.
+  - `App.js`: Main component that starts your whole app.
+- `index.js`: Entry point of your application as per React-Native standards.
+
+## Screenshot
+![](screenshots/screenshot_1.png)
+![](screenshots/screenshot_2.png)
+![](screenshots/screenshot_3.png)
+
 ## Getting Started
 
-#### 1. Clone and Install
+#### Clone and Install
 
 ```bash
 # Clone the repo
@@ -28,7 +51,7 @@ cd rn_app_starter && yarn install
 cd ios && pod install
 ```
 
-#### 2. Open RNS in your iOS simulator
+#### Run
 
 Run this command to start the development server and to start your app on iOS simulator:
 ```
