@@ -22,19 +22,18 @@ This template follows a very simple project structure:
   - `constants`: Folder to store any kind of constant that you have.
   - `translations`: Folder to store the languages files.
   - `navigation`: Folder to store the navigators.
-  - `screens`: Folder that contains all your application screens/features.       
+  - `screens`: Folder that contains all your application screens/features.
   - `store`: Folder to put all redux middlewares and the store.
-		- `reducers`: This folder should have all your reducers, and expose the combined result.
-        - `selectors`: Folder to store your selectors for each reducer.
-  	- `selectors`: Folder to store your selectors for each reducer.
+	- `reducers`: This folder should have all your reducers, and expose the combined result.
+    - `selectors`: Folder to store your selectors for each reducer.
   - `AppStyles.js`: Folder to store all the styling concerns related to the application theme.
   - `App.js`: Main component that starts your whole app.
 - `index.js`: Entry point of your application as per React-Native standards.
 
 ## Screenshot
-![](screenshots/screenshot_1.png)
-![](screenshots/screenshot_2.png)
-![](screenshots/screenshot_3.png)
+![](screenshots/Screenshot_1.png)
+![](screenshots/Screenshot_2.png)
+![](screenshots/Screenshot_3.png)
 
 ## Getting Started
 
